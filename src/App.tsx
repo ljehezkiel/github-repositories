@@ -12,7 +12,7 @@ import { User } from './models/User'
 
 function App() {
   const octokit = new Octokit({
-    auth: import.meta.env.VITE_GITHUB_TOKEN
+    // auth: import.meta.env.VITE_GITHUB_TOKEN
   })
   const maxRepoPerPage = 100
   const maxUserResults = 5
